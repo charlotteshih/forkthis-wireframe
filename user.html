@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Fork This!</title>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Fork This!</h1>
+            <h2>The Smartest, Simplest, Fastest Way To Write, Edit, and Organize Your Recipes</h2>
+        </header>
+        <nav class="index-buttons">
+            <a class="cta-btn">Logout</a>
+        </nav>
+        <section class="cookbook">
+            <section class="sidebar">
+                <h3>Folders</h3>
+                <form class="add-folder" action="POST">
+                    <label for="folder-name">Folder Name: </label>
+                    <input type="text" name="folder-name" required>
+                    <button type="submit">Add Folder</button>
+                </form>
+                <ul>
+                    <li class="folders-list"><a href="#">View All</a></li>
+                    <li class="folders-list"><a href="#">Breakfast</a></li>
+                    <li class="folders-list"><a href="#">Lunch</a></li>
+                    <li class="folders-list"><a href="#">Dinner</a></li>
+                    <li class="folders-list"><a href="#">Dessert</a></li>
+                </ul>
+            </section>
+            <section class="main-content recipe-list">
+                <section class="add-recipe">
+                    <a href="add-recipe.html" class="add-btn">+ Add A Recipe</a>
+                </section>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Pecan Pie</a></h4>
+                    <p>
+                        <b>Folders:</b> Dessert
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Chocolate Chip Cookies</a></h4>
+                    <p>
+                        <b>Folders:</b> Dessert
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Turkey Chili</a></h4>
+                    <p>
+                        <b>Folders:</b> Dinner
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Pasta Salad</a></h4>
+                    <p>
+                        <b>Folders:</b> Lunch
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Spam Fried Rice</a></h4>
+                    <p>
+                        <b>Folders:</b> Breakfast, Lunch, Dinner
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+                <article class="recipe-card">
+                    <h4><a href="recipe.html">Stuffed French Toast</a></h4>
+                    <p>
+                        <b>Folders:</b> Breakfast
+                    </p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <p>Made with love by <a href="https://charlotteshih.github.io/portfolio/" target="_blank">Charlotte Shih</a></p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+
+    outline: 1px solid red;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+
+    outline: 1px solid orange;
+}
+
+.index-buttons {
+    width: 100%;
+    text-align: center;
+
+    outline: 1px solid yellow;
+}
+
+a.cta-btn {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.index-blurb {
+    max-width: 960px;
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+
+    outline: 1px solid green;
+}
+
+.user-form {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    outline: 1px solid yellow;
+}
+
+.cookbook {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+
+    outline: 1px solid green;
+}
+
+.main-content {
+    position: relative;
+    width: 80%;
+
+    outline: 1px solid teal;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-recipe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+}
+
+.add-btn {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.add-recipe-form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+
+    outline: 1px solid green;
+}
+
+.recipe-card {
+    width: 300px;
+    margin: 30px;
+    margin-top: 60px;
+    padding: 30px;
+
+    outline: 1px solid turquoise;
+}
+
+.recipe-header {
+    width: 100%;
+    text-align: center;
+    
+    outline: 1px solid yellowgreen;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    outline: 1px solid blue;
+}
