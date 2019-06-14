@@ -73,11 +73,23 @@ a.cta-btn {
     flex-wrap: wrap;
 }
 
+.add-folder {
+    outline: 1px solid yellowgreen;
+}
+
+.folders-list {
+    outline: 1px solid yellowgreen;
+}
+
 .add-recipe {
     position: absolute;
     top: 0;
     right: 0;
     padding: 30px;
+}
+
+.controls {
+    outline: 1px solid blueviolet;
 }
 
 .add-btn {
@@ -108,9 +120,17 @@ a.cta-btn {
 
 .recipe-header {
     width: 100%;
+    position: relative;
     text-align: center;
     
     outline: 1px solid yellowgreen;
+}
+
+.back-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: 1px solid orange;
 }
 
 footer {
